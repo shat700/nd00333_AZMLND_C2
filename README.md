@@ -16,7 +16,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we dep
 This step plays a key role in maintaining a uninterrupted flow of operations. Human intervention slows down the process. Therefore, authentication with automation is considered as an ideal scenario. A 'Service Principal' is one of the best examples of authentication with user specific permissions.
 
 ### 2. Automated ML Experiment
-In order to create an AutoML experiment, we first login into the AzureML portal and create a new compute for the new experiment. Followed by this, we enable authentication and use Azure Container Instance (ACI) as it quickly deploy compute instances and is simple to use as well. The experiment runs for about 1 hour with concurrency of 5. 
+In order to create an AutoML experiment, we first login into the AzureML portal and create a new compute for the new experiment. The virtual machine size chosen for the compute cluster is 'Standard_DS12_v2' with 1 as the minimum number of nodes. The experiment takes about 1 hour for completion with concurrency of 5. 
 
 #### Registered Datasets
 
@@ -31,7 +31,9 @@ In order to create an AutoML experiment, we first login into the AzureML portal 
 ![Bestautomlmodel](Bestautomlmodel.png)
 
 ### 3. Deploy the best model
-The best model obtained in the AutoML run is 'VotingEnsemble' with the highest accuracy of 
+The best model obtained in the AutoML run is 'VotingEnsemble' with the highest accuracy of 0.91988. In order to deploy, we choose the best model, enable authentication and use Azure Container Instance (ACI) as it quickly deploy compute instances and is simple to use as well.
+
+![Deploymentsuccessful](Deploymentsuccessful.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
