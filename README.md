@@ -49,7 +49,21 @@ This is a crucial step to 'Enable Application Insights'. Application insights is
 ### 4. Swagger Documentation
 Swagger is a tool that helps build, document, and consume RESTful web services deployed in Azure ML Studio. It further explains what types of HTTP requests an API can consume, in this case like POST and GET. A swagger.json is provided in the endpoints section of Azure that is used to create a web site. This localhost website documents the HTTP endpoint for a deployed model. After running the swagger.sh and serve.py scripts, the webpage displays the contents of the API for the model along with different HTTP requests supported.
 
-#### 
+#### Swagger Website 
+
+![swaggerweb](swaggerweb.png)
+
+#### serve.sh script run on port 8000
+
+![servescriptrun](servescriptrun.png)
+
+#### API for the Model
+
+![ModelAPI](ModelAPI.png)
+
+### 5. Consume Model Endpoints
+
+
 
 
 
