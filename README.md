@@ -30,8 +30,8 @@ In order to create an AutoML experiment, we first login into the AzureML portal 
 
 ![Bestautomlmodel](Bestautomlmodel.png)
 
-## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+### 3. Deploy the best model
+The best model obtained in the AutoML run is 'VotingEnsemble' with the highest accuracy of 
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
