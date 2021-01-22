@@ -57,13 +57,24 @@ Swagger is a tool that helps build, document, and consume RESTful web services d
 
 ![servescriptrun](servescriptrun.png)
 
+#### API Contents
+
+![APIcontents](APIcontents.png)
+
+### 5. Consume Model Endpoints
+
+In this project, the deployed service is consumed via an HTTP API. We initiate an input request, in this case via an HTTP POST request method to submit data. The HTTP GET is another request method to retrieve information from a web server. This creates a bi-directional flow of allowed information in Azure. 
+In order to consume deployed service, we modify the URI and key to match the primary key for our service and RESTful URI generated after deployment. The execution of the endpoint.py script after modification gives a JSON output.
+
 #### API for the Model
 
 ![ModelAPI](ModelAPI.png)
 
-### 5. Consume Model Endpoints
+#### Consume endpoint
 
+![jsonoutput](jsonoutput.png)
 
+The APIs exposed by Azure ML will use JSON (JavaScript Object Notation) to accept data and submit responses. It served as a bridge language among different environments.
 
 
 
