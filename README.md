@@ -9,13 +9,12 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we dep
 ## Architectural Diagram
 ![Architecture](Architecture.png)
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 ## Key Steps
 
 ### 1. Authentication: 
 This step plays a key role in maintaining a uninterrupted flow of operations. Human intervention slows down the process. Therefore, authentication with automation is considered as an ideal scenario. A 'Service Principal' is one of the best examples of authentication with user specific permissions.
 
-### 2. Automated ML Experiment
+### 2. Automated ML Experiment for Best Model
 In order to create an AutoML experiment, we first login into the AzureML portal and create a new compute for the new experiment. The virtual machine size chosen for the compute cluster is 'Standard_DS12_v2' with 1 as the minimum number of nodes. The experiment takes about 1 hour for completion with concurrency of 5. 
 
 #### Registered Datasets
@@ -64,7 +63,7 @@ Swagger is a tool that helps build, document, and consume RESTful web services d
 ### 5. Consume Model Endpoints
 
 In this project, the deployed service is consumed via an HTTP API. We initiate an input request, in this case via an HTTP POST request method to submit data. The HTTP GET is another request method to retrieve information from a web server. This creates a bi-directional flow of allowed information in Azure. 
-In order to consume deployed service, we modify the URI and key to match the primary key for our service and RESTful URI generated after deployment. The execution of the endpoint.py script after modification gives a JSON output.
+In order to consume deployed service, we modify the URI and key to match the primary key for our service and RESTful URI generated after deployment. The execution of the endpoint.py script after modification gives output.
 
 #### API for the Model
 
@@ -74,13 +73,14 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ![jsonoutput](jsonoutput.png)
 
-The APIs exposed by Azure ML will use JSON (JavaScript Object Notation) to accept data and submit responses. It served as a bridge language among different environments.
-
-
+##Future Improvements
+Benchmarking. Less time taking. 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+When run against column 'contact', the accuracy was calculated to be 0.94... 
+contact column is a crucial one in this dataset therefore it provides a better model.
 
