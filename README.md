@@ -31,9 +31,14 @@ In order to create an AutoML experiment, we first login into the AzureML portal 
 ![Bestautomlmodel](Bestautomlmodel.png)
 
 ### 3. Deploy the best model
-The best model obtained in the AutoML run is 'VotingEnsemble' with the highest accuracy of 0.91988. In order to deploy, we choose the best model, enable authentication and use Azure Container Instance (ACI) as it quickly deploy compute instances and is simple to use as well.
+Deployment is the delivery of the best trained model into production so that it can be consumed by others. The best model obtained in the AutoML run is 'VotingEnsemble' with the highest accuracy of 0.91988. In order to deploy, we configure the deployment settings by enabling authentication and using Azure Container Instance (ACI) as it quickly deploys compute instances and is simple to use.
 
 ![Deploymentsuccessful](Deploymentsuccessful.png)
+
+### 4. Enable logging
+This is a crucial step to 'Enable Application Insights'. Application insights is a tool that helps in detecting anomalies and visualizing performance. It can be enabled before or after deployment and can be modified with the SDK. In this project, we enable application insights after deployment by adding a specific command to the python SDK. The modified python script displaying logs.
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
