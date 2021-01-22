@@ -4,6 +4,7 @@
 # Operationalizing Machine Learning for Bank Marketing Dataset
 
 ##Overview 
+
 This project is part of the Udacity Azure ML Nanodegree. In this project, we deploy a model, consume endpoints to interact with the deployed model in Azure ML Studio and perform pipeline automation to improve machine learning operations.
 
 ## Architectural Diagram
