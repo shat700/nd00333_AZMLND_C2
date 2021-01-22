@@ -16,8 +16,13 @@ This step plays a key role in maintaining a uninterrupted flow of operations. Hu
 
 * Automated ML Experiment
 In order to create an AutoML experiment, we first login into the AzureML portal and create a new compute for the new experiment. Followed by this, we enable authentication and use Azure Container Instance (ACI) as it quickly deploy compute instances and is simple to use as well. The experiment runs for about 1 hour with concurrency of 5. 
+*Registered Datasets
 ![Registereddatasets](Registereddatasets.png)
+
+*AutoML experiment completion
 ![Experimentcompleted](Experimentcompleted.png)
+
+*Best Model: VotingEnsemble
 ![Bestautomlmodel](Bestautomlmodel.png)
 
 ## Key Steps
