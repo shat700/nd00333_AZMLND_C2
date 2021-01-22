@@ -11,19 +11,23 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we dep
 
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 ## Key Steps
-* Authentication: 
+
+### 1. Authentication: 
 This step plays a key role in maintaining a uninterrupted flow of operations. Human intervention slows down the process. Therefore, authentication with automation is considered as an ideal scenario. A 'Service Principal' is one of the best examples of authentication with user specific permissions.
 
-* Automated ML Experiment
+### 2. Automated ML Experiment
 In order to create an AutoML experiment, we first login into the AzureML portal and create a new compute for the new experiment. Followed by this, we enable authentication and use Azure Container Instance (ACI) as it quickly deploy compute instances and is simple to use as well. The experiment runs for about 1 hour with concurrency of 5. 
 
-** Registered Datasets
+#### Registered Datasets
+
 ![Registereddatasets](Registereddatasets.png)
 
-** AutoML experiment completion
+#### AutoML experiment completion
+
 ![Experimentcompleted](Experimentcompleted.png)
 
-** Best Model: VotingEnsemble
+#### Best Model: VotingEnsemble
+
 ![Bestautomlmodel](Bestautomlmodel.png)
 
 ## Key Steps
