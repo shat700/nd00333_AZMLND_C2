@@ -38,7 +38,13 @@ Deployment is the delivery of the best trained model into production so that it 
 ### 4. Enable logging
 This is a crucial step to 'Enable Application Insights'. Application insights is a tool that helps in detecting anomalies and visualizing performance. It can be enabled before or after deployment and can be modified with the SDK. In this project, we enable application insights after deployment by adding a specific command to the python SDK. The modified python script displaying logs.
 
+#### Application Insights Enabled
 
+![Applicationinsightsenabled](Applicationinsightsenabled.png)
+
+#### Python SDK run
+
+![logsrun](logsrun.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
