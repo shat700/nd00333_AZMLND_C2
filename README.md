@@ -72,7 +72,7 @@ In order to consume deployed service, we modify the URI and key to match the pri
 ![jsonoutput](jsonoutput.png)
 
 ## Future Suggestions
-Benchmarking can be done to keep the performance of the model in check and above a standard level. It is used to determine the 'response time' in seconds for the deployed model. Another suggestion would be to try different models to get the best possible one. This couldn't be done due to cost incurred by using the Azure account. 
+Benchmarking can be done using Apache Benchmark command-line tool to keep the performance of the model in check and above a standard level. It is used to determine the 'response time' in seconds for the deployed model. Another suggestion would be to try different models to get the best possible one. This couldn't be done due to cost incurred by using the Azure account. 
 The time taken for the experiment was approximately an hour. If we reduce the duration for the experiment or increase the number of processes running parallely i.e. concurrency, the experiment will be faster and time can be saved. Also, the use of Kubenetes service can be helpful in case we add more data to the existing dataset as it expands and contracts on demand. 
 
 ## Screen Recording
