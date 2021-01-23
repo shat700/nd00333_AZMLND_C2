@@ -23,6 +23,8 @@ In order to create an AutoML experiment, we first login into the AzureML portal 
 
 ![Experimentcompleted](Experimentcompleted.png)
 
+![Experimentcompleted1](Experimentcompleted1.png)
+
 #### Best Model: VotingEnsemble
 
 ![Bestautomlmodel](Bestautomlmodel.png)
