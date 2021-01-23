@@ -45,7 +45,7 @@ This is a crucial step to 'Enable Application Insights'. Application insights is
 
 ![logsrun](logsrun.png)
 
-### 4. Swagger Documentation
+### 5. Swagger Documentation
 Swagger is a tool that helps build, document, and consume RESTful web services deployed in Azure ML Studio. It further explains what types of HTTP requests an API can consume, in this case like POST and GET. A swagger.json is provided in the endpoints section of Azure that is used to create a web site. This localhost website documents the HTTP endpoint for a deployed model. After running the swagger.sh and serve.py scripts, the webpage displays the contents of the API for the model along with different HTTP requests supported.
 
 #### Swagger Website 
@@ -60,7 +60,7 @@ Swagger is a tool that helps build, document, and consume RESTful web services d
 
 ![APIcontents](APIcontents.png)
 
-### 5. Consume Model Endpoints
+### 6. Consume Model Endpoints
 
 In this project, the deployed service is consumed via an HTTP API. We initiate an input request, in this case via an HTTP POST request method to submit data. The HTTP GET is another request method to retrieve information from a web server. This creates a bi-directional flow of allowed information in Azure. 
 In order to consume deployed service, we modify the URI and key to match the primary key for our service and RESTful URI generated after deployment. The execution of the endpoint.py script after modification gives output.
@@ -73,14 +73,14 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ![jsonoutput](jsonoutput.png)
 
-##Future Improvements
-Benchmarking. Less time taking. 
+## Future Suggestions
+Benchmarking can be done to keep the performance of the model in check and above a standard level. It is used to determine the 'response time' in seconds for the deployed model. Another suggestion would be to try different models to get the best possible one. This couldn't be done due to cost incurred by using the Azure account. 
+Less time taking. 
 
 ## Screen Recording
 Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
-When run against column 'contact', the accuracy was calculated to be 0.94... 
-contact column is a crucial one in this dataset therefore it provides a better model.
+## Standout Suggestions Performed
+AutoML experiment when run against column 'contact', the best model was found to be 'VotingEnsemble' and accuracy was calculated to be 0.94... which is higher than in the case we considered in the project.
+I chose the contact column since it is a crucial one in this dataset, therefore it provides a better model.
 
