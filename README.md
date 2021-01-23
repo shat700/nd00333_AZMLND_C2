@@ -78,7 +78,7 @@ Benchmarking can be done using Apache Benchmark command-line tool to keep the pe
 The time taken for the experiment was approximately an hour. If we reduce the duration for the experiment or increase the number of processes running parallely i.e. concurrency, the experiment will be faster and time can be saved. Also, the use of Kubenetes service can be helpful in case we add more data to the existing dataset as it expands and contracts on demand. 
 
 ## Screen Recording
-Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://youtu.be/O0KRyPQr0bs
 
 ## Standout Suggestions Performed
 AutoML experiment when run against column 'contact', the best model was found to be 'VotingEnsemble' and accuracy was calculated to be 0.94264 which is higher than in the case we considered in the project.
