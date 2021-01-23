@@ -21,7 +21,7 @@ In order to create an AutoML experiment, we first login into the AzureML portal 
 
 #### AutoML experiment completion
 
-![Experimentcompleted](Experimentcompleted.png)
+![Expcompleted](Expcompleted.png)
 
 ![Experimentcompleted1](Experimentcompleted1.png)
 
