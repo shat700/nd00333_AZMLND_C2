@@ -82,6 +82,6 @@ Provide a link to a screen recording of the project in action. Remember that the
 
 ## Standout Suggestions Performed
 AutoML experiment when run against column 'contact', the best model was found to be 'VotingEnsemble' and accuracy was calculated to be 0.94264 which is higher than in the case we considered in the project.
-I chose the contact column since it is a crucial one in this dataset, therefore it provides a better model.
+I chose the contact column since it is a crucial one in this dataset, therefore it provides a better performing model.
 
 ![BestModel](BestModel.png)
