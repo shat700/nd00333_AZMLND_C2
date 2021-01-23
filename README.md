@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 
 # Operationalizing Machine Learning for Bank Marketing Dataset
 
@@ -75,7 +73,7 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ## Future Suggestions
 Benchmarking can be done to keep the performance of the model in check and above a standard level. It is used to determine the 'response time' in seconds for the deployed model. Another suggestion would be to try different models to get the best possible one. This couldn't be done due to cost incurred by using the Azure account. 
-Less time taking. 
+The time taken for the experiment was approximately an hour. If we reduce the duration for every iteration i.e. concurrency, the experiment will be faster and time can be saved. Also, the use of Kubenetes service can be helpful in case we add more data to the existing dataset as it expands and contracts on demand. 
 
 ## Screen Recording
 Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
