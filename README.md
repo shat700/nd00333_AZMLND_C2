@@ -39,7 +39,7 @@ This is a crucial step to 'Enable Application Insights'. Application insights is
 
 #### Application Insights Enabled
 
-![Applicationinsightsenabled](Applicationinsightsenabled.png)
+![Insightsenabled](Insightsenabled.png)
 
 #### Python SDK run
 
