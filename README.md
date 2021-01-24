@@ -81,6 +81,8 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ![RunDetailsWidget](RunDetailsWidget.png)
 
+![RunDetailsWidget1](RunDetailsWidget1.png)
+
 #### Published Pipeline Overview
 
 ![publishedpipelineoverview](publishedpipelineoverview.png)
