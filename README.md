@@ -79,7 +79,7 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 #### Run Details Widget
 
-![RunDetailsWidget](RunDetailsWidget.png)
+![Rundetailswidget](Rundetailswidget.png)
 
 ![RunDetailsWidget1](RunDetailsWidget1.png)
 
