@@ -69,6 +69,10 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ![ModelAPI](ModelAPI.png)
 
+#### Pipeline runs
+
+![Pipeline-runs](Pipeline-runs.png)
+
 #### Pipeline endpoint
 
 ![Pipeline-endpoint](Pipeline-endpoint.png)
