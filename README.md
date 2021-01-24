@@ -2,7 +2,7 @@
 # Operationalizing Machine Learning for Bank Marketing Dataset
 
 ## Overview 
-This project is part of the Udacity Azure ML Nanodegree. In this project, we deploy a model, consume endpoints to interact with the deployed model in Azure ML Studio and perform pipeline automation to improve machine learning operations.
+This project is part of the Udacity Azure ML Nanodegree. In this project, we perform AutoML on the dataset, deploy the best model obtained from AutoML as a RESTful webservice, consume endpoints to interact with the deployed model in Azure ML Studio and perform pipeline automation to improve machine learning operations.
 
 ## Architectural Diagram
 ![Architecture](Architecture.png)
@@ -73,7 +73,7 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 ![jsonoutput](jsonoutput.png)
 
-## Future Suggestions
+## Future Improvements
 Benchmarking can be done using Apache Benchmark command-line tool to keep the performance of the model in check and above a standard level. It is used to determine the 'response time' in seconds for the deployed model. Another suggestion would be to try different models to get the best possible one. This couldn't be done due to cost incurred by using the Azure account. 
 The time taken for the experiment was approximately an hour. If we reduce the duration for the experiment or increase the number of processes running parallely i.e. concurrency, the experiment will be faster and time can be saved. Also, the use of Kubenetes service can be helpful in case we add more data to the existing dataset as it expands and contracts on demand. 
 
