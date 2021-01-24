@@ -79,7 +79,7 @@ In order to consume deployed service, we modify the URI and key to match the pri
 
 #### Published Pipeline Overview
 
-![publishedpipelineoverview](publishedpipelineoverview].png)
+![publishedpipelineoverview](publishedpipelineoverview.png)
 
 #### Consume endpoint
 
